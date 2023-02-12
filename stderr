@@ -1,0 +1,36 @@
+FAIL ./combined_number.test.js
+  Combined Number
+    ✕ should return a string (8 ms)
+
+  ● Combined Number › should return a string
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: "string"
+    Received: "number"
+
+       5 | describe('Combined Number', () => {
+       6 |   it('should return a string', () => {
+    >  7 |     expect(typeof combined_number('')).toEqual('string');
+         |                                        ^
+       8 |   });
+       9 | });
+      10 | 
+
+      at Object.<anonymous> (combined_number.test.js:7:40)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.427 s
+Ran all test suites.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ test: `jest --coverage`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the @ test script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/sandbox/.npm/_logs/2023-02-12T08_19_31_994Z-debug.log

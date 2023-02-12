@@ -1,7 +1,7 @@
 'use strict';
 
-function answer() {
-  return 6 * 9;
+function combined_number() {
+  return '';
 }
 
-module.exports = answer;
+module.exports = combined_number;

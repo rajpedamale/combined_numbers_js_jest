@@ -1,59 +1,15 @@
-FAIL ./combined_number.test.js
+PASS ./combined_number.test.js
   Combined Number
-    ✓ should return a string (4 ms)
+    ✓ should return a string (3 ms)
     ✓ should return a string of the number for a single number
     ✓ should return "42" for [2, 4] (1 ms)
     ✓ should return "42120" for [21, 20, 4]
-    ✓ should return "95021" for [50, 2, 1, 9]
-    ✕ should return "56550" for [5, 50, 56] (3 ms)
-    ✕ should return "42423420" for [420, 42, 423]
+    ✓ should return "95021" for [50, 2, 1, 9] (1 ms)
+    ✓ should return "56550" for [5, 50, 56]
+    ✓ should return "42423420" for [420, 42, 423]
 
-  ● Combined Number › should return "56550" for [5, 50, 56]
-
-    expect(received).toEqual(expected) // deep equality
-
-    Expected: "56550"
-    Received: "55650"
-
-      25 | 
-      26 |   it('should return "56550" for [5, 50, 56]', () => {
-    > 27 |     expect(combined_number([5, 50, 56])).toEqual('56550');
-         |                                          ^
-      28 |   });
-      29 | 
-      30 |   it('should return "42423420" for [420, 42, 423]', () => {
-
-      at Object.<anonymous> (combined_number.test.js:27:42)
-
-  ● Combined Number › should return "42423420" for [420, 42, 423]
-
-    expect(received).toEqual(expected) // deep equality
-
-    Expected: "42423420"
-    Received: "42042423"
-
-      29 | 
-      30 |   it('should return "42423420" for [420, 42, 423]', () => {
-    > 31 |     expect(combined_number([420, 42, 423])).toEqual('42423420');
-         |                                             ^
-      32 |   });
-      33 | });
-      34 | 
-
-      at Object.<anonymous> (combined_number.test.js:31:45)
-
-Test Suites: 1 failed, 1 total
-Tests:       2 failed, 5 passed, 7 total
+Test Suites: 1 passed, 1 total
+Tests:       7 passed, 7 total
 Snapshots:   0 total
-Time:        1.429 s
+Time:        1.543 s
 Ran all test suites.
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! @ test: `jest --coverage`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the @ test script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/sandbox/.npm/_logs/2023-02-13T10_52_21_574Z-debug.log

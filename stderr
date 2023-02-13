@@ -1,12 +1,12 @@
 PASS ./combined_number.test.js
   Combined Number
-    ✓ should return a string (4 ms)
-    ✓ should return a string of the number for a single number
-    ✓ should return "42" for [2, 4] (1 ms)
+    ✓ should return a string (3 ms)
+    ✓ should return a string of the number for a single number (1 ms)
+    ✓ should return "42" for [2, 4]
     ○ skipped should return "42120" for [21, 20, 4]
 
 Test Suites: 1 passed, 1 total
 Tests:       1 skipped, 3 passed, 4 total
 Snapshots:   0 total
-Time:        1.457 s
+Time:        1.415 s
 Ran all test suites.

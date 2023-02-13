@@ -22,4 +22,12 @@ describe('Combined Number', () => {
   it('should return "95021" for [50, 2, 1, 9]', () => {
     expect(combined_number([50, 2, 1, 9])).toEqual('95021');
   });
+
+  it('should return "56550" for [5, 50, 56]', () => {
+    expect(combined_number([5, 50, 56])).toEqual('56550');
+  });
+
+  it('should return "42423420" for [420, 42, 423]', () => {
+    expect(combined_number([420, 42, 423])).toEqual('42423420');
+  });
 });

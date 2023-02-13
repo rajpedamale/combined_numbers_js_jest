@@ -18,4 +18,8 @@ describe('Combined Number', () => {
   it('should return "42120" for [21, 20, 4]', () => {
     expect(combined_number([21, 20, 4])).toEqual('42120');
   });
+
+  it('should return "95021" for [50, 2, 1, 9]', () => {
+    expect(combined_number([50, 2, 1, 9])).toEqual('95021');
+  });
 });

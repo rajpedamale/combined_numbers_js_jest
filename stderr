@@ -1,37 +1,10 @@
-FAIL ./combined_number.test.js
+PASS ./combined_number.test.js
   Combined Number
     ✓ should return a string (3 ms)
-    ✕ should return a string of the number for a single number (3 ms)
+    ✓ should return a string of the number for a single number (1 ms)
 
-  ● Combined Number › should return a string of the number for a single number
-
-    expect(received).toEqual(expected) // deep equality
-
-    Expected: "0"
-    Received: ""
-
-       9 | 
-      10 |   it('should return a string of the number for a single number', () => {
-    > 11 |     expect(combined_number([0])).toEqual('0');
-         |                                  ^
-      12 |   });
-      13 | });
-      14 | 
-
-      at Object.<anonymous> (combined_number.test.js:11:34)
-
-Test Suites: 1 failed, 1 total
-Tests:       1 failed, 1 passed, 2 total
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
 Snapshots:   0 total
-Time:        2 s
+Time:        1.321 s
 Ran all test suites.
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! @ test: `jest --coverage`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the @ test script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/sandbox/.npm/_logs/2023-02-13T07_45_37_944Z-debug.log
